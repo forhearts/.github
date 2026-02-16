@@ -1,1 +1,9 @@
+<svg viewBox="-0.15 -0.25 2.1 2.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="-0.15" y="-0.25" width="2.1" height="2.1" fill="#000000"/>
 
+  <path d="M 1.75 1.1654 A 1 0.25 0 0 1 0.0625 0.913" 
+        fill="none" stroke="#ffffff" stroke-width="0.1" stroke-linecap="butt" />
+
+  <path d="M 0.25 1 A 0.75 0.75 0 0 1 1.693 0.713" 
+        fill="none" stroke="#ffffff" stroke-width="0.1" stroke-linecap="butt" />
+</svg>
