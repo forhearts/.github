@@ -14,7 +14,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Organization introduction
+      - name: Repositories overview
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/metrics.plugin.repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: forhearts
+          base: repositories, metadata
+          plugin_traffic: yes
+          plugin_traffic_skipped: .github, home-page
+      - name: 
         uses: lowlighter/metrics@latest
         with:
           filename: profile/metrics.plugin.repositories.svg
@@ -22,4 +31,4 @@ jobs:
           user: forhearts
           base: repositories
           plugin_traffic: yes
-          plugin_traffic_skipped: .github, home-page
+          plugin_traffic_skipped: .github
