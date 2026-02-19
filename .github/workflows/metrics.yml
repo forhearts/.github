@@ -19,6 +19,6 @@ jobs:
         with:
           filename: profile/metrics.plugin.repositories.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: forheart
+          user: forhearts
           base: repositories
           plugin_traffic: yes
