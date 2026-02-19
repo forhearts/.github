@@ -22,13 +22,4 @@ jobs:
           user: forhearts
           base: repositories, metadata
           plugin_traffic: yes
-          plugin_traffic_skipped: .github, home-page
-      - name: 
-        uses: lowlighter/metrics@latest
-        with:
-          filename: profile/metrics.plugin.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: forhearts
-          base: repositories
-          plugin_traffic: yes
           plugin_traffic_skipped: .github
